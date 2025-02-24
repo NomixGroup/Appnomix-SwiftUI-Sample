@@ -383,6 +383,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Demo-SwiftUI-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Appnomix Demo";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Appnomix Demo for SwiftUI";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Appnomix Demo for SwiftUI";
 				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Appnomix Demo SwiftUI*";
@@ -418,6 +419,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Demo-SwiftUI-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Appnomix Demo";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Appnomix Demo for SwiftUI";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Appnomix Demo for SwiftUI";
 				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Appnomix Demo SwiftUI*";
@@ -449,7 +451,7 @@
 				DEVELOPMENT_TEAM = 4V9H3RZY6B;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Demo SwiftUI Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Demo SwiftUI Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "Appnomix Demo Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -480,7 +482,7 @@
 				DEVELOPMENT_TEAM = 4V9H3RZY6B;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Demo SwiftUI Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Demo SwiftUI Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "Appnomix Demo Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
