@@ -1,0 +1,10 @@
+{
+    "extension_name": {
+        "message": "Appnomix Demo",
+        "description": "The display name for the extension."
+    },
+    "extension_description": {
+        "message": "Get that super deal feeling every time you shop online with instant discounts on all your favourites.",
+        "description": "Description of what the extension does."
+    }
+}

@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECC176962D6770C200C0E7B1 /* Demo SwiftUI Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = ECC176842D6770C200C0E7B1 /* Demo SwiftUI Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		ECC1769D2D6770E600C0E7B1 /* AppnomixCommerce in Frameworks */ = {isa = PBXBuildFile; productRef = ECC1769C2D6770E600C0E7B1 /* AppnomixCommerce */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECC176942D6770C200C0E7B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECB5AE852D42EED300809AF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECC176832D6770C200C0E7B1;
+			remoteInfo = "Demo SwiftUI Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ECB5AEB92D42F1F500809AF7 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				ECC176962D6770C200C0E7B1 /* Demo SwiftUI Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		ECB5AE8D2D42EED300809AF7 /* Demo SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC176842D6770C200C0E7B1 /* Demo SwiftUI Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Demo SwiftUI Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		ECC176972D6770C200C0E7B1 /* Exceptions for "Demo SwiftUI Extension" folder in "Demo SwiftUI Extension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = ECC176832D6770C200C0E7B1 /* Demo SwiftUI Extension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		ECB5AE8F2D42EED300809AF7 /* Demo SwiftUI */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Demo SwiftUI";
+			sourceTree = "<group>";
+		};
+		ECC176852D6770C200C0E7B1 /* Demo SwiftUI Extension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				ECC176972D6770C200C0E7B1 /* Exceptions for "Demo SwiftUI Extension" folder in "Demo SwiftUI Extension" target */,
+			);
+			explicitFolders = (
+				Resources/_locales,
+				Resources/fonts,
+				Resources/images,
+				Resources/js,
+			);
+			path = "Demo SwiftUI Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECB5AE8A2D42EED300809AF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC1769D2D6770E600C0E7B1 /* AppnomixCommerce in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC176812D6770C200C0E7B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECB5AE842D42EED300809AF7 = {
+			isa = PBXGroup;
+			children = (
+				ECB5AE8F2D42EED300809AF7 /* Demo SwiftUI */,
+				ECC176852D6770C200C0E7B1 /* Demo SwiftUI Extension */,
+				ECB5AEC02D42F55900809AF7 /* Frameworks */,
+				ECB5AE8E2D42EED300809AF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECB5AE8E2D42EED300809AF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECB5AE8D2D42EED300809AF7 /* Demo SwiftUI.app */,
+				ECC176842D6770C200C0E7B1 /* Demo SwiftUI Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECB5AEC02D42F55900809AF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECB5AE8C2D42EED300809AF7 /* Demo SwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB5AE9B2D42EED300809AF7 /* Build configuration list for PBXNativeTarget "Demo SwiftUI" */;
+			buildPhases = (
+				ECB5AE892D42EED300809AF7 /* Sources */,
+				ECB5AE8A2D42EED300809AF7 /* Frameworks */,
+				ECB5AE8B2D42EED300809AF7 /* Resources */,
+				ECB5AEB92D42F1F500809AF7 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECC176952D6770C200C0E7B1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ECB5AE8F2D42EED300809AF7 /* Demo SwiftUI */,
+			);
+			name = "Demo SwiftUI";
+			packageProductDependencies = (
+				ECC1769C2D6770E600C0E7B1 /* AppnomixCommerce */,
+			);
+			productName = "Demo SwiftUI";
+			productReference = ECB5AE8D2D42EED300809AF7 /* Demo SwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECC176832D6770C200C0E7B1 /* Demo SwiftUI Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC176982D6770C200C0E7B1 /* Build configuration list for PBXNativeTarget "Demo SwiftUI Extension" */;
+			buildPhases = (
+				ECC176802D6770C200C0E7B1 /* Sources */,
+				ECC176812D6770C200C0E7B1 /* Frameworks */,
+				ECC176822D6770C200C0E7B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				ECC176852D6770C200C0E7B1 /* Demo SwiftUI Extension */,
+			);
+			name = "Demo SwiftUI Extension";
+			packageProductDependencies = (
+			);
+			productName = "Demo SwiftUI Extension";
+			productReference = ECC176842D6770C200C0E7B1 /* Demo SwiftUI Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECB5AE852D42EED300809AF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					ECB5AE8C2D42EED300809AF7 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					ECC176832D6770C200C0E7B1 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = ECB5AE882D42EED300809AF7 /* Build configuration list for PBXProject "Demo SwiftUI" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECB5AE842D42EED300809AF7;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				ECC1769B2D6770E600C0E7B1 /* XCRemoteSwiftPackageReference "ios_commerce_sdk_binary" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = ECB5AE8E2D42EED300809AF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECB5AE8C2D42EED300809AF7 /* Demo SwiftUI */,
+				ECC176832D6770C200C0E7B1 /* Demo SwiftUI Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECB5AE8B2D42EED300809AF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC176822D6770C200C0E7B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECB5AE892D42EED300809AF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC176802D6770C200C0E7B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECC176952D6770C200C0E7B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECC176832D6770C200C0E7B1 /* Demo SwiftUI Extension */;
+			targetProxy = ECC176942D6770C200C0E7B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ECB5AE992D42EED300809AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECB5AE9A2D42EED300809AF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECB5AE9C2D42EED300809AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Demo SwiftUI/Demo SwiftUI.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Demo SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 4V9H3RZY6B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Demo-SwiftUI-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Appnomix Demo";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Appnomix Demo for SwiftUI";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Appnomix Demo for SwiftUI";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Appnomix Demo SwiftUI*";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.appnomix.Demo-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECB5AE9D2D42EED300809AF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Demo SwiftUI/Demo SwiftUI.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Demo SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 4V9H3RZY6B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Demo-SwiftUI-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Appnomix Demo";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Appnomix Demo for SwiftUI";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Appnomix Demo for SwiftUI";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Appnomix Demo SwiftUI*";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.appnomix.Demo-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ECC176992D6770C200C0E7B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Demo SwiftUI Extension/Demo SwiftUI Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4V9H3RZY6B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Demo SwiftUI Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Appnomix Demo Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.appnomix.Demo-SwiftUI.Demo-SwiftUI-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECC1769A2D6770C200C0E7B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Demo SwiftUI Extension/Demo SwiftUI Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4V9H3RZY6B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Demo SwiftUI Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Appnomix Demo Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.appnomix.Demo-SwiftUI.Demo-SwiftUI-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECB5AE882D42EED300809AF7 /* Build configuration list for PBXProject "Demo SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB5AE992D42EED300809AF7 /* Debug */,
+				ECB5AE9A2D42EED300809AF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECB5AE9B2D42EED300809AF7 /* Build configuration list for PBXNativeTarget "Demo SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB5AE9C2D42EED300809AF7 /* Debug */,
+				ECB5AE9D2D42EED300809AF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECC176982D6770C200C0E7B1 /* Build configuration list for PBXNativeTarget "Demo SwiftUI Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC176992D6770C200C0E7B1 /* Debug */,
+				ECC1769A2D6770C200C0E7B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ECC1769B2D6770E600C0E7B1 /* XCRemoteSwiftPackageReference "ios_commerce_sdk_binary" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/NomixGroup/ios_commerce_sdk_binary";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ECC1769C2D6770E600C0E7B1 /* AppnomixCommerce */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ECC1769B2D6770E600C0E7B1 /* XCRemoteSwiftPackageReference "ios_commerce_sdk_binary" */;
+			productName = AppnomixCommerce;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = ECB5AE852D42EED300809AF7 /* Project object */;
+}
