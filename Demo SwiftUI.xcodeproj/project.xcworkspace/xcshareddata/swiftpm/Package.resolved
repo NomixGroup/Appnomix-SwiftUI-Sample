@@ -1,0 +1,15 @@
+{
+  "originHash" : "a237d612d1f32949696de28da62beafe913f980af884ad0315f135ad77826a7c",
+  "pins" : [
+    {
+      "identity" : "ios_commerce_sdk_binary",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/NomixGroup/ios_commerce_sdk_binary",
+      "state" : {
+        "revision" : "da36fdd07553785a3e6068915134b8e7e75951dc",
+        "version" : "1.5.0"
+      }
+    }
+  ],
+  "version" : 3
+}
