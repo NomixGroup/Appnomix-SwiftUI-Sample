@@ -24,7 +24,7 @@
     },
 
     "content_scripts": [{
-        "js": [ "js/apply-msg.js", "js/apply.js", "js/content.js", "js/content2.js" ],
+        "js": [ "js/content.js" ],
         "matches": [ "<all_urls>" ],
         "run_at": "document_start"
     }],

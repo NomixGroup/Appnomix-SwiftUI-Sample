@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A56F034FE9AE98F7F07D8AA /* Demo SwiftUI Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 61C72E69A278FF7000CBF780 /* Demo SwiftUI Extension.appex */; };
+		3F6FC27D558A6B7F54BE76D2 /* AppnomixCommerce in Frameworks */ = {isa = PBXBuildFile; productRef = ECC1769C2D6770E600C0E7B1 /* AppnomixCommerce */; };
 		ECC176962D6770C200C0E7B1 /* Demo SwiftUI Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = ECC176842D6770C200C0E7B1 /* Demo SwiftUI Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		ECC1769D2D6770E600C0E7B1 /* AppnomixCommerce in Frameworks */ = {isa = PBXBuildFile; productRef = ECC1769C2D6770E600C0E7B1 /* AppnomixCommerce */; };
 /* End PBXBuildFile section */
@@ -29,6 +31,7 @@
 			dstSubfolderSpec = 13;
 			files = (
 				ECC176962D6770C200C0E7B1 /* Demo SwiftUI Extension.appex in Embed Foundation Extensions */,
+				2A56F034FE9AE98F7F07D8AA /* Demo SwiftUI Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -36,6 +39,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		61C72E69A278FF7000CBF780 /* Demo SwiftUI Extension.appex */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.app-extension"; path = "Demo SwiftUI Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECB5AE8D2D42EED300809AF7 /* Demo SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECC176842D6770C200C0E7B1 /* Demo SwiftUI Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Demo SwiftUI Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -53,6 +57,8 @@
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		ECB5AE8F2D42EED300809AF7 /* Demo SwiftUI */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = "Demo SwiftUI";
 			sourceTree = "<group>";
 		};
@@ -85,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F6FC27D558A6B7F54BE76D2 /* AppnomixCommerce in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +105,7 @@
 				ECC176852D6770C200C0E7B1 /* Demo SwiftUI Extension */,
 				ECB5AEC02D42F55900809AF7 /* Frameworks */,
 				ECB5AE8E2D42EED300809AF7 /* Products */,
+				61C72E69A278FF7000CBF780 /* Demo SwiftUI Extension.appex */,
 			);
 			sourceTree = "<group>";
 		};
@@ -161,8 +169,6 @@
 				ECC176852D6770C200C0E7B1 /* Demo SwiftUI Extension */,
 			);
 			name = "Demo SwiftUI Extension";
-			packageProductDependencies = (
-			);
 			productName = "Demo SwiftUI Extension";
 			productReference = ECC176842D6770C200C0E7B1 /* Demo SwiftUI Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
@@ -176,6 +182,8 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
+				PackageReferences = (
+				);
 				TargetAttributes = {
 					ECB5AE8C2D42EED300809AF7 = {
 						CreatedOnToolsVersion = 16.2;
@@ -445,7 +453,7 @@
 		ECC176992D6770C200C0E7B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "Demo SwiftUI Extension/Demo SwiftUI Extension.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Demo SwiftUI Extension/Appnomix Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4V9H3RZY6B;
@@ -476,7 +484,7 @@
 		ECC1769A2D6770C200C0E7B1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "Demo SwiftUI Extension/Demo SwiftUI Extension.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Demo SwiftUI Extension/Appnomix Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4V9H3RZY6B;
@@ -541,8 +549,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/NomixGroup/ios_commerce_sdk_binary";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.4.0;
+				kind = exactVersion;
+				version = 1.6.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
