@@ -55,6 +55,7 @@
           "fonts/*.css",
           "fonts/*.ttf",
           "images/*.*",
+          "_locales/*.*",
           "popup/*.*"
         ],
         "matches": [
