@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/NomixGroup/ios_commerce_sdk_binary",
       "state" : {
-        "revision" : "309362361e49b4cb4cea7e37e55596550daeb31d",
-        "version" : "1.7.0"
+        "revision" : "f45690f43c0ba9d46d3608892ef62d7baa840801",
+        "version" : "1.7.1"
       }
     }
   ],

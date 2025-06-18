@@ -30,7 +30,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
             appURLScheme: "appnomix-demo-swiftui://", // e.g., my-app-url://
             requestLocation: true,
             requestTracking: true,
-            locale: "en"
+            language: "en"
         )
         AnalyticsFacade().trackOfferDisplay(context: "app_start")
         
