@@ -29,7 +29,8 @@ class AppDelegate: NSObject, UIApplicationDelegate {
             appGroupName: "group.app.appnomix.demo-swiftui", // e.g., group.com.mycompany.myapp
             appURLScheme: "appnomix-demo-swiftui://", // e.g., my-app-url://
             requestLocation: true,
-            requestTracking: true
+            requestTracking: true,
+            locale: "en"
         )
         AnalyticsFacade().trackOfferDisplay(context: "app_start")
         

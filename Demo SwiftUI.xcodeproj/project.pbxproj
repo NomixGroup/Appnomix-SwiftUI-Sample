@@ -57,8 +57,6 @@
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		ECB5AE8F2D42EED300809AF7 /* Demo SwiftUI */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = "Demo SwiftUI";
 			sourceTree = "<group>";
 		};
@@ -550,7 +548,7 @@
 			repositoryURL = "https://github.com/NomixGroup/ios_commerce_sdk_binary";
 			requirement = {
 				kind = exactVersion;
-				version = 1.6.0;
+				version = 1.7.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
