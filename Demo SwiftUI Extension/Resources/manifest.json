@@ -16,7 +16,7 @@
 
     "background": {
         "scripts": ["js/background.js"],
-        "persistent": false
+        "type": "module"
     },
 
     "content_security_policy": {

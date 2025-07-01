@@ -1,154 +1,154 @@
 {
-    "extension_name": {
-        "message": "Demo SwiftUI",
-        "description": "The display name for the extension."
-    },
-    "extension_description": {
-        "message": "Get that super deal feeling every time you shop online with instant discounts on all your favourites.",
-        "description": "Description of what the extension does."
-    },
-    "global.powered_by_appnomix": {
-        "message": "Powered by Appnomix",
-        "description": "Footer text"
-    },
-    "action_popup.title": {
-        "message": "Brace yourself for huge savings!",
-        "description": "Main title in the popup"
-    },
-    "action_popup.subtitle": {
-        "message": "You're about to be one of the savviest shoppers on the planet with all the coupons coming your way.",
-        "description": "Subtitle text in the popup"
-    },
-    "action_popup.back_to_publisher": {
-        "message": "Back to $1",
-        "description": "Back button text with publisher name placeholder"
-    },
-    "aa_start_popup.title": {
-        "message": "Ready to save big?",
-        "description": "Main heading for auto-apply start popup"
-    },
-    "aa_start_popup.subtitle": {
-        "message": "Find your best deal yet",
-        "description": "Subheading for auto-apply start popup"
-    },
-    "aa_start_popup.primary_button": {
-        "message": "I'm in",
-        "description": "Primary button text for auto-apply popup"
-    },
-    "aa_start_popup.secondary_button": {
-        "message": "Try later",
-        "description": "Secondary button text for auto-apply popup"
-    },
-    "aa_progress.trying_coupons": {
-        "message": "Trying <b>$1 out of $2</b> coupon codes...",
-        "description": "Progress indicator for coupon testing"
-    },
-    "aa_progress.stop_with_savings": {
-        "message": "Stop and apply",
-        "description": "Stop button text when savings found"
-    },
-    "aa_progress.stop_no_savings": {
-        "message": "Cancel and try later",
-        "description": "Stop button text when no savings found"
-    },
-    "aa_progress.savings_message_1": {
-        "message": "You have saved $1 so far! You're flying, keep on going",
-        "description": "Progress message with savings 1"
-    },
-    "aa_progress.savings_message_2": {
-        "message": "Crushing it! You've saved $1 so far – but we're not done yet!",
-        "description": "Progress message with savings 2"
-    },
-    "aa_progress.savings_message_3": {
-        "message": "Nice! You've saved $1 so far – still trying to find you the best.",
-        "description": "Progress message with savings 3"
-    },
-    "aa_progress.no_savings_message_1": {
-        "message": "Your savvy shopping skills are about to pay off BIG TIME.",
-        "description": "Progress message without savings 1"
-    },
-    "aa_progress.no_savings_message_2": {
-        "message": "You're ahead of the pack – more deals are coming your way!",
-        "description": "Progress message without savings 2"
-    },
-    "aa_progress.no_savings_message_3": {
-        "message": "Hang tight, saver! The best deals are just about to land.",
-        "description": "Progress message without savings 3"
-    },
-    "aa_progress.no_savings_message_4": {
-        "message": "Great things take time and are worth the wait.",
-        "description": "Progress message without savings 4"
-    },
-    "aa_progress.no_savings_message_5": {
-        "message": "What a savings pro! Keep your pockets full as we find even better for less.",
-        "description": "Progress message without savings 5"
-    },
-    "aa_finish.success_message": {
-        "message": "Great job! You've saved <br/>$1<br/> with $2",
-        "description": "Success message showing savings amount and partner name"
-    },
-    "aa_finish.already_best_price": {
-        "message": "You already have the best price!",
-        "description": "Message shown when no better discount is found"
-    },
-    "aa_finish.continue_checkout": {
-        "message": "Continue to checkout",
-        "description": "Text for the checkout button"
-    },
-    "aa_error.generic_error": {
-        "message": "Sorry, we got a bit stuck.",
-        "description": "Generic error message shown when auto-apply encounters a problem"
-    },
-    "aa_error.checkout_button": {
-        "message": "Go to checkout",
-        "description": "Button text to proceed to checkout after error"
-    },
-    "aa_stop_confirmation.success_message": {
-        "message": "Congrats! You saved <br/>$1<br/> so far with $2",
-        "description": "Success message showing current savings and partner name"
-    },
-    "aa_stop_confirmation.keep_searching": {
-        "message": "Keep searching",
-        "description": "Button text to continue searching for better deals"
-    },
-    "aa_stop_confirmation.secondary_button": {
-        "message": "Go to checkout",
-        "description": "Button text to stop and keep current savings"
-    },
-    "coupons_popup.title": {
-        "message": "Ready to save big?",
-        "description": "Main heading for coupons popup"
-    },
-    "coupons_popup.subtitle": {
-        "message": "Choose your best deal yet",
-        "description": "Subheading for coupons popup"
-    },
-    "coupons_popup.secondary_button": {
-        "message": "Try later",
-        "description": "Button text to dismiss popup"
-    },
-    "coupons_popup.copy_code": {
-        "message": "Copy code",
-        "description": "Label for coupon copy action"
-    },
-    "coupons_popup.copied_message": {
-        "message": "<b>$1</b><br/>copied to clipboard!",
-        "description": "Success message when coupon is copied"
-    },
-    "copied_popup.success_message": {
-        "message": "Code copied successfully",
-        "description": "Message shown when code is copied to clipboard"
-    },
-    "fab_popup.default_message": {
-        "message": "Tap the button to save!",
-        "description": "Default message shown in FAB when no specific message is provided"
-    },
-    "fab_popup.preparing_coupons": {
-        "message": "Preparing coupons...",
-        "description": "Message shown when auto-apply is initializing coupons"
-    },
-    "fab_popup.searching_coupons": {
-        "message": "Searching for coupons...",
-        "description": "Message shown when system is searching for available coupons"
-    }
+  "extension_name": {
+    "message": "Demo SwiftUI",
+    "description": "The display name for the extension."
+  },
+  "extension_description": {
+    "message": "Get that super deal feeling every time you shop online with instant discounts on all your favourites.",
+    "description": "Description of what the extension does."
+  },
+  "global.powered_by_appnomix": {
+    "message": "Powered by Appnomix",
+    "description": "Footer text"
+  },
+  "action_popup.title": {
+    "message": "Brace yourself for huge savings!",
+    "description": "Main title in the popup"
+  },
+  "action_popup.subtitle": {
+    "message": "You're about to be one of the savviest shoppers on the planet with all the coupons coming your way.",
+    "description": "Subtitle text in the popup"
+  },
+  "action_popup.back_to_publisher": {
+    "message": "Back to $1",
+    "description": "Back button text with publisher name placeholder"
+  },
+  "aa_start_popup.title": {
+    "message": "Ready to save big?",
+    "description": "Main heading for auto-apply start popup"
+  },
+  "aa_start_popup.subtitle": {
+    "message": "Find your best deal yet",
+    "description": "Subheading for auto-apply start popup"
+  },
+  "aa_start_popup.primary_button": {
+    "message": "I'm in",
+    "description": "Primary button text for auto-apply popup"
+  },
+  "aa_start_popup.secondary_button": {
+    "message": "Try later",
+    "description": "Secondary button text for auto-apply popup"
+  },
+  "aa_progress.trying_coupons": {
+    "message": "Trying <b>$1 out of $2</b> coupon codes...",
+    "description": "Progress indicator for coupon testing"
+  },
+  "aa_progress.stop_with_savings": {
+    "message": "Stop and apply",
+    "description": "Stop button text when savings found"
+  },
+  "aa_progress.stop_no_savings": {
+    "message": "Cancel and try later",
+    "description": "Stop button text when no savings found"
+  },
+  "aa_progress.savings_message_1": {
+    "message": "You have saved $1 so far! You're flying, keep on going",
+    "description": "Progress message with savings 1"
+  },
+  "aa_progress.savings_message_2": {
+    "message": "Crushing it! You've saved $1 so far – but we're not done yet!",
+    "description": "Progress message with savings 2"
+  },
+  "aa_progress.savings_message_3": {
+    "message": "Nice! You've saved $1 so far – still trying to find you the best.",
+    "description": "Progress message with savings 3"
+  },
+  "aa_progress.no_savings_message_1": {
+    "message": "Your savvy shopping skills are about to pay off BIG TIME.",
+    "description": "Progress message without savings 1"
+  },
+  "aa_progress.no_savings_message_2": {
+    "message": "You're ahead of the pack – more deals are coming your way!",
+    "description": "Progress message without savings 2"
+  },
+  "aa_progress.no_savings_message_3": {
+    "message": "Hang tight, saver! The best deals are just about to land.",
+    "description": "Progress message without savings 3"
+  },
+  "aa_progress.no_savings_message_4": {
+    "message": "Great things take time and are worth the wait.",
+    "description": "Progress message without savings 4"
+  },
+  "aa_progress.no_savings_message_5": {
+    "message": "What a savings pro! Keep your pockets full as we find even better for less.",
+    "description": "Progress message without savings 5"
+  },
+  "aa_finish.success_message": {
+    "message": "Great job! You've saved <br/>$1<br/> with $2",
+    "description": "Success message showing savings amount and partner name"
+  },
+  "aa_finish.already_best_price": {
+    "message": "You already have the best price!",
+    "description": "Message shown when no better discount is found"
+  },
+  "aa_finish.continue_checkout": {
+    "message": "Continue to checkout",
+    "description": "Text for the checkout button"
+  },
+  "aa_error.generic_error": {
+    "message": "Sorry, we got a bit stuck.",
+    "description": "Generic error message shown when auto-apply encounters a problem"
+  },
+  "aa_error.checkout_button": {
+    "message": "Go to checkout",
+    "description": "Button text to proceed to checkout after error"
+  },
+  "aa_stop_confirmation.success_message": {
+    "message": "Congrats! You saved <br/>$1<br/> so far with $2",
+    "description": "Success message showing current savings and partner name"
+  },
+  "aa_stop_confirmation.keep_searching": {
+    "message": "Keep searching",
+    "description": "Button text to continue searching for better deals"
+  },
+  "aa_stop_confirmation.secondary_button": {
+    "message": "Go to checkout",
+    "description": "Button text to stop and keep current savings"
+  },
+  "coupons_popup.title": {
+    "message": "Ready to save big?",
+    "description": "Main heading for coupons popup"
+  },
+  "coupons_popup.subtitle": {
+    "message": "Choose your best deal yet",
+    "description": "Subheading for coupons popup"
+  },
+  "coupons_popup.secondary_button": {
+    "message": "Try later",
+    "description": "Button text to dismiss popup"
+  },
+  "coupons_popup.copy_code": {
+    "message": "Copy code",
+    "description": "Label for coupon copy action"
+  },
+  "coupons_popup.copied_message": {
+    "message": "<b>$1</b><br/>copied to clipboard!",
+    "description": "Success message when coupon is copied"
+  },
+  "copied_popup.success_message": {
+    "message": "Code copied successfully",
+    "description": "Message shown when code is copied to clipboard"
+  },
+  "fab_popup.default_message": {
+    "message": "Tap the button to save!",
+    "description": "Default message shown in FAB when no specific message is provided"
+  },
+  "fab_popup.preparing_coupons": {
+    "message": "Preparing coupons...",
+    "description": "Message shown when auto-apply is initializing coupons"
+  },
+  "fab_popup.searching_coupons": {
+    "message": "Searching for coupons...",
+    "description": "Message shown when system is searching for available coupons"
+  }
 }

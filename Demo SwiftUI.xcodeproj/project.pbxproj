@@ -548,7 +548,7 @@
 			repositoryURL = "https://github.com/NomixGroup/ios_commerce_sdk_binary";
 			requirement = {
 				kind = exactVersion;
-				version = 1.7.1;
+				version = 1.7.3;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
