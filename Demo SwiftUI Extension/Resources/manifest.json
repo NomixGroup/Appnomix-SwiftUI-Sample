@@ -16,7 +16,7 @@
 
     "background": {
         "scripts": ["js/background.js"],
-        "type": "module"
+        "persistent": false
     },
 
     "content_security_policy": {
@@ -52,8 +52,7 @@
     "web_accessible_resources": [
       {
         "resources": [
-          "fonts/*.css",
-          "fonts/*.ttf",
+          "res/*.*",
           "images/*.*",
           "_locales/*.*",
           "popup/*.*"

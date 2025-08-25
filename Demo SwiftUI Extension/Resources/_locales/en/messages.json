@@ -40,7 +40,7 @@
     "description": "Secondary button text for auto-apply popup"
   },
   "aa_progress.trying_coupons": {
-    "message": "Trying <b>$1 out of $2</b> coupon codes...",
+    "message": "Trying $1 out of $2 codes...",
     "description": "Progress indicator for coupon testing"
   },
   "aa_progress.stop_with_savings": {
@@ -84,8 +84,12 @@
     "description": "Progress message without savings 5"
   },
   "aa_finish.success_message": {
-    "message": "Great job! You've saved <br/>$1<br/> with $2",
-    "description": "Success message showing savings amount and partner name"
+    "message": "You just saved $1 with $2",
+    "description": "Success message showing savings amount"
+  },
+  "aa_finish.supporting_text": {
+    "message": "No extra steps needed — We applied the best available code at checkout.",
+    "description": "Final message indicating a code was applied with no user action needed"
   },
   "aa_finish.already_best_price": {
     "message": "You already have the best price!",
@@ -96,7 +100,7 @@
     "description": "Text for the checkout button"
   },
   "aa_error.generic_error": {
-    "message": "Sorry, we got a bit stuck.",
+    "message": "Sorry, we got a bit stuck...",
     "description": "Generic error message shown when auto-apply encounters a problem"
   },
   "aa_error.checkout_button": {
@@ -104,11 +108,15 @@
     "description": "Button text to proceed to checkout after error"
   },
   "aa_stop_confirmation.success_message": {
-    "message": "Congrats! You saved <br/>$1<br/> so far with $2",
+    "message": "You saved $1 so far with $2",
     "description": "Success message showing current savings and partner name"
   },
+  "aa_stop_confirmation.success_supporting_text": {
+    "message": "👀 We can keep searching for more savings if you would like!",
+    "description": "Message shown when one coupon is applied, but more are being tested"
+  },
   "aa_stop_confirmation.keep_searching": {
-    "message": "Keep searching",
+    "message": "Keep searching for savings",
     "description": "Button text to continue searching for better deals"
   },
   "aa_stop_confirmation.secondary_button": {
@@ -139,16 +147,176 @@
     "message": "Code copied successfully",
     "description": "Message shown when code is copied to clipboard"
   },
-  "fab_popup.default_message": {
+  "fab.default_message": {
     "message": "Tap the button to save!",
     "description": "Default message shown in FAB when no specific message is provided"
   },
-  "fab_popup.preparing_coupons": {
+  "fab.preparing_coupons": {
     "message": "Preparing coupons...",
     "description": "Message shown when auto-apply is initializing coupons"
   },
-  "fab_popup.searching_coupons": {
+  "fab.searching_coupons": {
     "message": "Searching for coupons...",
     "description": "Message shown when system is searching for available coupons"
+  },
+  "fab.code_copied": {
+    "message": "✨ Code Copied!",
+    "description": "Message shown after a coupon code is successfully copied"
+  },
+  "fab.coupons_found": {
+    "message": "$1 coupons found!",
+    "description": "Message shown when one or more coupons have been found; $1 will be replaced with the actual number"
+  },
+  "fab.we_spotted_a_better_deal": {
+    "message": "👀 We spotted a better deal, at $1",
+    "description": "Message shown when a better price is found; %s is replaced with the merchant name"
+  },
+  "fab.auto_apply_message1": {
+    "message": "Hey 👋 want us to run through all the coupons we’ve got for this store?",
+    "description": "Message shown when prompting the user to apply all coupons for a store (variant 1)"
+  },
+  "fab.auto_apply_cta1": {
+    "message": "View Coupons",
+    "description": "CTA button for auto-apply message 1"
+  },
+  "fab.auto_apply_message2": {
+    "message": "Could be a deal hiding in here 👀 Want us to test them all for you?",
+    "description": "Message shown to suggest hidden deals may exist (variant 2)"
+  },
+  "fab.auto_apply_cta2": {
+    "message": "View Coupons",
+    "description": "CTA button for auto-apply message 2"
+  },
+  "fab.auto_apply_message3": {
+    "message": "Found a few codes — we’ll test them all to find the best one 💸",
+    "description": "Message shown when multiple codes are found and will be tested (variant 3)"
+  },
+  "fab.auto_apply_cta3": {
+    "message": "See All Codes",
+    "description": "CTA button for auto-apply message 3"
+  },
+  "fab.auto_apply_message4": {
+    "message": "Let’s give these coupons a spin — maybe we get lucky 🤞",
+    "description": "Message shown when encouraging user to try coupons (variant 4)"
+  },
+  "fab.auto_apply_cta4": {
+    "message": "Try for Savings",
+    "description": "CTA button for auto-apply message 4"
+  },
+  "fab.auto_apply_message5": {
+    "message": "We’ve got the codes. You’ve got the cart. Let’s see if they match.",
+    "description": "Message shown when inviting user to test codes with their cart (variant 5)"
+  },
+  "fab.auto_apply_cta5": {
+    "message": "Test Coupons",
+    "description": "CTA button for auto-apply message 5"
+  },
+  "fab.auto_apply_message6": {
+    "message": "Multiple codes found. Want us to test and apply the best one?",
+    "description": "Message shown when multiple codes are available (variant 6)"
+  },
+  "fab.auto_apply_cta6": {
+    "message": "Check for Deals",
+    "description": "CTA button for auto-apply message 6"
+  },
+  "fab.auto_apply_message7": {
+    "message": "You’re almost done. Want to scan for available discounts?",
+    "description": "Message shown near checkout to suggest scanning for discounts (variant 7)"
+  },
+  "fab.auto_apply_cta7": {
+    "message": "View Coupons",
+    "description": "CTA button for auto-apply message 7"
+  },
+  "fab.auto_apply_message8": {
+    "message": "We’ll auto-test codes for you — quick and seamless.",
+    "description": "Message shown to highlight auto-testing of coupons (variant 8)"
+  },
+  "fab.auto_apply_cta8": {
+    "message": "Find Best Deal",
+    "description": "CTA button for auto-apply message 8"
+  },
+  "fab.auto_apply_message9": {
+    "message": "Let us apply the best offer available in one click.",
+    "description": "Message shown promoting one-click auto-apply (variant 9)"
+  },
+  "fab.auto_apply_cta9": {
+    "message": "View Coupons",
+    "description": "CTA button for auto-apply message 9"
+  },
+  "fab.auto_apply_message10": {
+    "message": "One click. All codes tested. Potential savings applied.",
+    "description": "Message summarizing the value of one-click coupon testing (variant 10)"
+  },
+  "fab.auto_apply_cta10": {
+    "message": "View Coupons",
+    "description": "CTA button for auto-apply message 10"
+  },
+  "coupons.tab_name": {
+    "message": "Coupons",
+    "description": "Label for the Coupons tab"
+  },
+  "coupons.empty_title": {
+    "message": "No coupons for this store right now",
+    "description": "Title shown when there are no coupons available for the current store"
+  },
+  "coupons.empty_supporting_text": {
+    "message": "We’ll keep looking — savings could drop anytime.",
+    "description": "Supporting text shown when no coupons are currently available"
+  },
+  "coupons.try_all": {
+    "message": "Try All Coupons",
+    "description": "CTA encouraging the user to test all available coupon codes"
+  },
+  "best_price.tab_name": {
+    "message": "Best Price",
+    "description": "Label for the Best Price tab"
+  },
+  "best_price.empty_title": {
+    "message": "Nothing to compare right now.",
+    "description": "Title shown when there are no alternative prices to compare"
+  },
+  "best_price.empty_supporting_text": {
+    "message": "When we find this product at other stores, you’ll see price differences here",
+    "description": "Supporting text shown when no price comparisons are available"
+  },
+  "best_price.lowest_price": {
+    "message": "🔥Best Price",
+    "description": "Label for the best available price"
+  },
+  "best_price.go_to_site": {
+    "message": "Go to site",
+    "description": "CTA button label to redirect user to another site offering the product"
+  },
+  "best_price.current_site": {
+    "message": "Current Site",
+    "description": "Label indicating the user is viewing the current retailer's offer"
+  },
+  "best_price.add_extra_savings": {
+    "message": "⚡️Add Extra Savings",
+    "description": "CTA label encouraging the user to apply additional savings or coupons"
+  },
+  "alternate.tab_name": {
+    "message": "Alt",
+    "description": "Label for the Alternatives tab"
+  },
+  "alternate.empty_title": {
+    "message": "This is where you’ll see similar items — when we find them.",
+    "description": "Title shown when there are no alternative products yet"
+  },
+  "alternate.empty_supporting_text": {
+    "message": "We’ll surface other options with related styles, brands, or price points",
+    "description": "Supporting text shown for alternative products section when no results are available"
+  },
+  "alternate.title": {
+    "message": "Alternatives",
+    "description": "Title for the section showing similar or related products"
+  },
+  "alternate.supporting_text": {
+    "message": "Similar styles. Possible savings.",
+    "description": "Supporting text encouraging users to explore alternatives for style or price benefits"
+  },
+  "alternate.unlock_savings": {
+    "message": "Unlock Savings",
+    "description": "CTA encouraging the user to engage with alternative savings options"
   }
 }
