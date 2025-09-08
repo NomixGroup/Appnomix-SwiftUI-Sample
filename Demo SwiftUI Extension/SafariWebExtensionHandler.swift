@@ -6,7 +6,7 @@
 import AppnomixCommerce
 
 class SafariWebExtensionHandler: AppnomixWebExtensionHandler {
-    override var extensionVersion: String { "2.0.0-beta02" }
+    override var extensionVersion: String { "2.0.0-beta03" }
 
     // TODO: As part of the integration guide, the partner must replace this string
     override var appGroupName: String { "group.app.appnomix.demo-swiftui" }

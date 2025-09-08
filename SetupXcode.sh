@@ -16,7 +16,7 @@ PROJECT_PATH="${1:-$SCRIPT_DIR}"
 # ---------------------------------------------------------
 APP_GROUPS_NAME=group.app.appnomix.demo-swiftui # (e.g., group.com.example.app)
 LOGO_PNG_PATH="logo.png"
-XC_VERSION=2.0.0-beta02 # SDK version (see: https://github.com/NomixGroup/ios_commerce_sdk_binary/releases)
+XC_VERSION=2.0.0-beta03 # SDK version (see: https://github.com/NomixGroup/ios_commerce_sdk_binary/releases)
 
 XC_FRAMEWORK_NAME="AppnomixCommerce"
 TEMPLATE_URL="https://github.com/NomixGroup/ios_commerce_sdk_binary/releases/download/$XC_VERSION/Appnomix.Safari.Extension.xctemplate.zip"
