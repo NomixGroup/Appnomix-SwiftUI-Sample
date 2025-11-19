@@ -9,7 +9,7 @@ struct Demo_SwiftUIApp: App {
     
     var body: some Scene {
         WindowGroup {
-            if onboardingEvent == .onboardingDropout || onboardingEvent == .onboardingCompleted {
+            if !AppnomixCSDK.isOnboardingAvailable() || onboardingEvent == .onboardingDropout || onboardingEvent == .onboardingCompleted {
                 ContentView()
             } else {
                 AppnomixOnboardingView(onboardingEvent: $onboardingEvent)
@@ -23,16 +23,16 @@ class AppDelegate: NSObject, UIApplicationDelegate {
         _ application: UIApplication,
         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil
     ) -> Bool {
-        AppnomixCommerceSDK.start(
-            clientID: "YOUR_CLIENT_ID", // ask Appnomix
+        AppnomixCSDK.initialize(
+            clientId: "YOUR_CLIENT_ID", // ask Appnomix
             authToken: "YOUR_AUTH_TOKEN", // ask Appnomix
             appGroupName: "group.app.appnomix.demo-swiftui", // e.g., group.com.mycompany.myapp
-            appURLScheme: "appnomix-demo-swiftui://", // e.g., my-app-url://
-            requestLocation: true,
-            requestTracking: true,
-            language: "en"
+            options: .init(
+                appURLScheme: "appnomix-demo-swiftui://", // e.g., my-app-url://
+                language: "en"
+            )
         )
-        AnalyticsFacade().trackOfferDisplay(context: "app_start")
+        AppnomixCSDK.trackOfferDisplay(context: "app_start")
         
         return true
     }

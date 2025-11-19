@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09EFBB9840BE9EA9D60F225A /* dummy in Resources */ = {isa = PBXBuildFile; fileRef = 8B129C59A0E466580DC25EDD /* dummy */; };
 		221DDB69C7FC06BC5986B332 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 97840915C34C55406FC74C67 /* manifest.json */; };
 		2A56F034FE9AE98F7F07D8AA /* Demo SwiftUI Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 61C72E69A278FF7000CBF780 /* Demo SwiftUI Extension.appex */; };
 		3F6FC27D558A6B7F54BE76D2 /* AppnomixCommerce in Frameworks */ = {isa = PBXBuildFile; productRef = ECC1769C2D6770E600C0E7B1 /* AppnomixCommerce */; };
@@ -47,22 +46,19 @@
 
 /* Begin PBXFileReference section */
 		1BF35B25DA235080829CFE18 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SafariWebExtensionHandler.swift; path = "Demo SwiftUI Extension/SafariWebExtensionHandler.swift"; sourceTree = "<group>"; };
-		31D80491783455BDB89EA349 /* _locales */ = {isa = PBXFileReference; includeInIndex = 1; name = _locales; path = "Demo SwiftUI Extension/Resources/_locales"; sourceTree = "<group>"; };
+		31D80491783455BDB89EA349 /* _locales */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = _locales; path = "Demo SwiftUI Extension/Resources/_locales"; sourceTree = "<group>"; };
 		61C72E69A278FF7000CBF780 /* Demo SwiftUI Extension.appex */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.app-extension"; path = "Demo SwiftUI Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B129C59A0E466580DC25EDD /* dummy */ = {isa = PBXFileReference; includeInIndex = 1; name = dummy; path = "Demo SwiftUI Extension/Resources/dummy"; sourceTree = "<group>"; };
-		9306C7467BBCF68C920F8F82 /* res */ = {isa = PBXFileReference; includeInIndex = 1; name = res; path = "Demo SwiftUI Extension/Resources/res"; sourceTree = "<group>"; };
-		97840915C34C55406FC74C67 /* manifest.json */ = {isa = PBXFileReference; includeInIndex = 1; name = manifest.json; path = "Demo SwiftUI Extension/Resources/manifest.json"; sourceTree = "<group>"; };
-		C97B541BFFE3510B6064D0EC /* images */ = {isa = PBXFileReference; includeInIndex = 1; name = images; path = "Demo SwiftUI Extension/Resources/images"; sourceTree = "<group>"; };
+		9306C7467BBCF68C920F8F82 /* res */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = res; path = "Demo SwiftUI Extension/Resources/res"; sourceTree = "<group>"; };
+		97840915C34C55406FC74C67 /* manifest.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = manifest.json; path = "Demo SwiftUI Extension/Resources/manifest.json"; sourceTree = "<group>"; };
+		C97B541BFFE3510B6064D0EC /* images */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = images; path = "Demo SwiftUI Extension/Resources/images"; sourceTree = "<group>"; };
 		ECB5AE8D2D42EED300809AF7 /* Demo SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECC176842D6770C200C0E7B1 /* Demo SwiftUI Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Demo SwiftUI Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F471344A7ED1B665027CD5FC /* js */ = {isa = PBXFileReference; includeInIndex = 1; name = js; path = "Demo SwiftUI Extension/Resources/js"; sourceTree = "<group>"; };
+		F471344A7ED1B665027CD5FC /* js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = js; path = "Demo SwiftUI Extension/Resources/js"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		ECB5AE8F2D42EED300809AF7 /* Demo SwiftUI */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = "Demo SwiftUI";
 			sourceTree = "<group>";
 		};
@@ -92,7 +88,6 @@
 			isa = PBXGroup;
 			children = (
 				9306C7467BBCF68C920F8F82 /* res */,
-				8B129C59A0E466580DC25EDD /* dummy */,
 				C97B541BFFE3510B6064D0EC /* images */,
 				F471344A7ED1B665027CD5FC /* js */,
 				97840915C34C55406FC74C67 /* manifest.json */,
@@ -230,7 +225,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F72B1AC6661A500BFA963CC4 /* res in Resources */,
-				09EFBB9840BE9EA9D60F225A /* dummy in Resources */,
 				B7EC307F2E62EC81E5B8E760 /* images in Resources */,
 				656D635D47ADA3AA8B777ED5 /* js in Resources */,
 				221DDB69C7FC06BC5986B332 /* manifest.json in Resources */,
@@ -558,7 +552,7 @@
 			repositoryURL = "https://github.com/NomixGroup/ios_commerce_sdk_binary";
 			requirement = {
 				kind = exactVersion;
-				version = "2.0.0-beta03";
+				version = 2.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
