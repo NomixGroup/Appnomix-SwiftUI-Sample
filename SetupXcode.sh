@@ -286,76 +286,6 @@ EOF
     )"
 }
 
-add_privacy_permissions() {
-    ruby <<EOF
-require 'xcodeproj'
-require 'plist'
-
-project_path = '$1' # Xcode project path
-
-# Open the Xcode project
-project = Xcodeproj::Project.open(project_path)
-
-# Find the main application target (ignores extensions, frameworks, etc.)
-main_target = project.targets.find { |t| t.product_type == "com.apple.product-type.application" }
-
-if main_target.nil?
-  puts "❌ Error: No main application target found in the project."
-  exit 1
-end
-
-# Retrieve the Info.plist file path from the target's build settings
-info_plist_setting = main_target.resolved_build_setting("INFOPLIST_FILE")
-
-info_plist_path = if info_plist_setting.is_a?(Hash)
-  info_plist_setting["Release"] || info_plist_setting.values.first
-else
-  info_plist_setting
-end
-
-if info_plist_path.nil?
-  puts "❌ Error: Could not determine Info.plist file location for target '#{main_target.name}'."
-  exit 1
-end
-
-# Resolve absolute path
-info_plist_path = File.expand_path(File.join(File.dirname(project_path), info_plist_path))
-
-# Modify the Info.plist file
-if File.exist?(info_plist_path)
-  plist = Plist.parse_xml(info_plist_path)
-
-  puts "✅ Adding permissions to #{info_plist_path}"
-  
-  # Define privacy descriptions
-  privacy_descriptions = {
-    # "NSLocationWhenInUseUsageDescription" => "Find exclusive deals and discounts in your area",
-    # "NSLocationAlwaysUsageDescription" => "Find exclusive deals and discounts in your area",
-    "NSUserTrackingUsageDescription" => "We will use your data to provide a better and personalized ad experience."
-  }
-
-  privacy_descriptions.each do |key, value|
-    if plist.key?(key)
-      puts "⚠️ #{key} is already defined: [#{plist[key]}]"
-    else
-      plist[key] = value
-      puts "✅ Added #{key} to #{info_plist_path}"
-    end
-  end
-
-  # Write the updated plist back to file
-  File.write(info_plist_path, plist.to_plist)
-
-else
-  puts "❌ Error: Info.plist file not found at #{info_plist_path}"
-  exit 1
-end
-
-puts "🎉 Privacy permissions updated successfully."
-
-EOF
-}
-
 ensure_app_groups_exists() {
     ruby <<EOF
 require 'xcodeproj'
@@ -779,7 +709,6 @@ main() {
   link_swift_package_binary_to_target "$XCODEPROJ_FILE" "$SWIFT_PACKAGE_URL" "AppnomixCommerce" "$TARGET_NAME" "$XC_VERSION"
   link_swift_package_binary_to_target "$XCODEPROJ_FILE" "$SWIFT_PACKAGE_URL" "AppnomixCommerce" "$APP_EXTENSION_NAME" "$XC_VERSION"
 
-  add_privacy_permissions "$PROJECT_PATH/$XCODEPROJ_FILE"
   ensure_app_groups_exists "$PROJECT_PATH/$XCODEPROJ_FILE" "$TARGET_NAME" "$TARGET_NAME/$TARGET_NAME.entitlements" "$APP_GROUPS_NAME"
   ensure_app_groups_exists "$PROJECT_PATH/$XCODEPROJ_FILE" "$APP_EXTENSION_NAME" "$APP_EXTENSION_NAME/Appnomix Extension.entitlements" "$APP_GROUPS_NAME"
 
