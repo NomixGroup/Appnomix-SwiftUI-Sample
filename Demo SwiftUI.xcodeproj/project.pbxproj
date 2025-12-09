@@ -13,6 +13,7 @@
 		45205EF11DE13A9414508986 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF35B25DA235080829CFE18 /* SafariWebExtensionHandler.swift */; };
 		5A326BC41A15B4020C05E732 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 31D80491783455BDB89EA349 /* _locales */; };
 		656D635D47ADA3AA8B777ED5 /* js in Resources */ = {isa = PBXBuildFile; fileRef = F471344A7ED1B665027CD5FC /* js */; };
+		9DC8D40D4192134B69C7883A /* dummy in Resources */ = {isa = PBXBuildFile; fileRef = 37B93BB5A399A7972097F45A /* dummy */; };
 		B7EC307F2E62EC81E5B8E760 /* images in Resources */ = {isa = PBXBuildFile; fileRef = C97B541BFFE3510B6064D0EC /* images */; };
 		ECC176962D6770C200C0E7B1 /* Demo SwiftUI Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = ECC176842D6770C200C0E7B1 /* Demo SwiftUI Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		ECC1769D2D6770E600C0E7B1 /* AppnomixCommerce in Frameworks */ = {isa = PBXBuildFile; productRef = ECC1769C2D6770E600C0E7B1 /* AppnomixCommerce */; };
@@ -47,6 +48,7 @@
 /* Begin PBXFileReference section */
 		1BF35B25DA235080829CFE18 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SafariWebExtensionHandler.swift; path = "Demo SwiftUI Extension/SafariWebExtensionHandler.swift"; sourceTree = "<group>"; };
 		31D80491783455BDB89EA349 /* _locales */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = _locales; path = "Demo SwiftUI Extension/Resources/_locales"; sourceTree = "<group>"; };
+		37B93BB5A399A7972097F45A /* dummy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = dummy; path = "Demo SwiftUI Extension/Resources/dummy"; sourceTree = "<group>"; };
 		61C72E69A278FF7000CBF780 /* Demo SwiftUI Extension.appex */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.app-extension"; path = "Demo SwiftUI Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9306C7467BBCF68C920F8F82 /* res */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = res; path = "Demo SwiftUI Extension/Resources/res"; sourceTree = "<group>"; };
 		97840915C34C55406FC74C67 /* manifest.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = manifest.json; path = "Demo SwiftUI Extension/Resources/manifest.json"; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				97840915C34C55406FC74C67 /* manifest.json */,
 				31D80491783455BDB89EA349 /* _locales */,
 				1BF35B25DA235080829CFE18 /* SafariWebExtensionHandler.swift */,
+				37B93BB5A399A7972097F45A /* dummy */,
 			);
 			name = "Demo SwiftUI Extension";
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 				656D635D47ADA3AA8B777ED5 /* js in Resources */,
 				221DDB69C7FC06BC5986B332 /* manifest.json in Resources */,
 				5A326BC41A15B4020C05E732 /* _locales in Resources */,
+				9DC8D40D4192134B69C7883A /* dummy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -552,7 +556,7 @@
 			repositoryURL = "https://github.com/NomixGroup/ios_commerce_sdk_binary";
 			requirement = {
 				kind = exactVersion;
-				version = 2.0.0;
+				version = 2.0.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
